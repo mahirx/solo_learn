@@ -12,6 +12,6 @@ int main(int argc, char const *argv[])
 	int var = 32;
 	myFunc(&var);
 	cout << var << endl;
-	printf("%p", &var);
+	// printf("%p", &var);
 	return 0;
 }
